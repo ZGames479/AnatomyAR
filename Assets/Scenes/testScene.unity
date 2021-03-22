@@ -3143,14 +3143,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: skeleTargetImg_scaled
+  mTrackableName: Organ_System_AR
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Anatomy_AR.xml
   mPreserveChildSize: 0
-  mAspectRatio: 0.7
+  mAspectRatio: 1.5243928
   mImageTargetType: 0
   mWidth: 0.14
-  mHeight: 0.098
+  mHeight: 0.213415
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &505632564
 Transform:
@@ -4604,7 +4604,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 295c8fbd0000000039b448bd000000000000803f000000000000000000000000295c8fbd0000000039b4483d000000000000803f00000000000000000000803f295c8f3d0000000039b448bd000000000000803f000000000000803f00000000295c8f3d0000000039b4483d000000000000803f000000000000803f0000803f
+    _typelessdata: 295c8fbd000000007689dabd000000000000803f000000000000000000000000295c8fbd000000007689da3d000000000000803f00000000000000000000803f295c8f3d000000007689dabd000000000000803f000000000000803f00000000295c8f3d000000007689da3d000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -7684,14 +7684,14 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: skeleTargetImg_scaled
+  mTrackableName: Muscular_System_AR
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Anatomy_AR.xml
   mPreserveChildSize: 0
-  mAspectRatio: 0.7
+  mAspectRatio: 1.2722644
   mImageTargetType: 0
   mWidth: 0.14
-  mHeight: 0.098
+  mHeight: 0.178117
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1256147247
 Transform:
@@ -9335,7 +9335,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'skeleTargetImg_scaledMaterial
+  m_Name: 'Muscular_System_ARMaterial
 
     -18992'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -9350,7 +9350,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 917746a2dbd34db58febde1048f955e7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8857c6b09e274146b69e8297b1baa3c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -10963,7 +10963,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'skeleTargetImg_scaledMaterial
+  m_Name: 'Organ_System_ARMaterial
 
     -19242'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -10978,7 +10978,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 917746a2dbd34db58febde1048f955e7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 358164f499204c819619816ec1d9cb41, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -12509,6 +12509,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1256147247}
     m_Modifications:
+    - target: {fileID: 2388700189823625062, guid: a2a00950830d4f74198c50740aa629e9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e2b2400416703704d8d1dbf5d3df85db, type: 2}
     - target: {fileID: 2959495890663399032, guid: a2a00950830d4f74198c50740aa629e9,
         type: 3}
       propertyPath: m_RootOrder
@@ -12579,11 +12584,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3908638276746369073, guid: a2a00950830d4f74198c50740aa629e9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 005f60dbaaecc514495c3caba2c920a9, type: 2}
+    - target: {fileID: 4384292755056187990, guid: a2a00950830d4f74198c50740aa629e9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 005f60dbaaecc514495c3caba2c920a9, type: 2}
     - target: {fileID: 4854257282566058821, guid: a2a00950830d4f74198c50740aa629e9,
         type: 3}
       propertyPath: m_Name
       value: Ecorche_-_Anatomy_study
       objectReference: {fileID: 0}
+    - target: {fileID: 7441839903416304409, guid: a2a00950830d4f74198c50740aa629e9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 005f60dbaaecc514495c3caba2c920a9, type: 2}
+    - target: {fileID: 7624980819740584118, guid: a2a00950830d4f74198c50740aa629e9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 005f60dbaaecc514495c3caba2c920a9, type: 2}
+    - target: {fileID: 8886836965986792415, guid: a2a00950830d4f74198c50740aa629e9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a3c792ed6259dd418a062d381ac4355, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2a00950830d4f74198c50740aa629e9, type: 3}
 --- !u!1 &1954023563
@@ -13496,7 +13526,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 295c8fbd0000000039b448bd000000000000803f000000000000000000000000295c8fbd0000000039b4483d000000000000803f00000000000000000000803f295c8f3d0000000039b448bd000000000000803f000000000000803f00000000295c8f3d0000000039b4483d000000000000803f000000000000803f0000803f
+    _typelessdata: 295c8fbd000000004e64b6bd000000000000803f000000000000000000000000295c8fbd000000004e64b63d000000000000803f00000000000000000000803f295c8f3d000000004e64b6bd000000000000803f000000000000803f00000000295c8f3d000000004e64b63d000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
