@@ -20,8 +20,6 @@ public class SkelBones : MonoBehaviour
     [SerializeField] private GameObject tibiaPanel;
     [SerializeField] private GameObject fibulaPanel;
     [SerializeField] private GameObject patellaPanel;
-
-    [Space(10)]
     [Header("Buttons")]
     [SerializeField] private GameObject mainMenuBtn;
     #endregion
